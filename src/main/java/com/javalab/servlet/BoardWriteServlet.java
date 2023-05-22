@@ -2,6 +2,7 @@ package com.javalab.servlet;
 
 import java.io.IOException;
 
+
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -14,7 +15,7 @@ import com.javalab.dto.BoardModel;
 
 
 /**
- * 게시물 상세보기 서블릿
+ * 게시물 등록 서블릿
  */
 @WebServlet("/boardWrite")
 public class BoardWriteServlet extends HttpServlet {
